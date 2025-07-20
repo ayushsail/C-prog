@@ -25,7 +25,6 @@ int main()
             printf("\nYou are insured.");
         else
             printf("\nYou are not insure.");
-
     
     return 0;
 }  
