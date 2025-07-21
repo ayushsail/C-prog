@@ -12,8 +12,12 @@ int main()
     else if((a%2)==0){
         printf("\nThe number is even.");
     }
-    else{
+    else if((a%2)!=0){
         printf("\nThe number is odd.");
+    }
+    else{
+        printf("\nInvalid input");
     }
     return 0;
 }
+
