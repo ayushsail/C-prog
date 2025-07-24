@@ -1,15 +1,15 @@
 #include<stdio.h>
 int main()
 {
-    int n, i=1, f=1;
+    float n, i=1, f=1;
     printf("\nEnter a number:");
-    scanf("%d", &n);
+    scanf("%f", &n);
     while(i<=n)
     {
         f = f*i;
         i++;
     }
-    printf("%d", f);
+    printf("%f", f);
     return 0;
     
 }   
