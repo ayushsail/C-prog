@@ -7,7 +7,7 @@ int main()
     while(i <=10)
     {
         m = n*i;
-        printf("\n%d * %d = %d", n, i, m);
+        printf("\n%d X %d = %d", n, i, m);
         i++;
     }
 
